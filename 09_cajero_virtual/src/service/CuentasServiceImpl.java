@@ -11,6 +11,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import model.Cliente;
 import model.Cuenta;
+
+//esto es un cambio realizado por el equipo 2
 @Service
 public class CuentasServiceImpl implements CuentasService {
 	@PersistenceContext(unitName = "bancaPU")
